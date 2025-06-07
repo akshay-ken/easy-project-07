@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+/* importing fronts from goole */
+
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-amber-50;
+  }
+}
+
+@theme {
+  --font-overpass: Overpass;
+}
