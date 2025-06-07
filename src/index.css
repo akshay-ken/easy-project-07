@@ -5,10 +5,15 @@
 
 @layer base {
   body {
-    @apply bg-amber-50;
+    @apply bg-Grey950;
   }
 }
 
 @theme {
   --font-overpass: Overpass;
+  --color-Orange: hsl(25, 97%, 53%);
+  --color-White: hsl(0, 100%, 100%);
+  --color-Grey500: hsl(217, 12%, 63%);
+  --color-Grey900: hsl(213, 19%, 18%);
+  --color-Grey950: hsl(216, 12%, 8%);
 }
